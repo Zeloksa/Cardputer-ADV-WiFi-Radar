@@ -33,7 +33,7 @@
 
 ### Method 2: Manual Flashing
 1. Go to the **[Releases]** tab on the right side of this GitHub repository.
-2. Download the latest ** WiFi Radar ADV `.bin`** file.
+2. Download the latest **WiFi Radar ADV `.bin`** file.
 3. Flash the `.bin` to your M5Stack Cardputer using **M5Burner** (via the local file option) or the official **Espressif ESP32 Download Tool**.
 
 ---
