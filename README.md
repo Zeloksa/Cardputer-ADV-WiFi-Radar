@@ -69,7 +69,12 @@ When starting a scan, place the device **FLAT** on a table. Once calibrated, the
 A professional diagnostic mode for the 2.4GHz band. 
 * **True Peak Hold:** Networks are permanently accumulated in memory during the session to show the *real* channel congestion, even if a router temporarily stops broadcasting.
 * **Dual Visualization:** Use the `< / >` keys to switch between standard **Density Bars** and **Spectral Arcs**. Arcs visually demonstrate how a router on channel 6 creates physical noise on channels 4, 5, 7, and 8. Arc peaks are smartly labeled with the network's SSID.
-* **Grade & Advice:** The top-left corner dynamically displays the mathematically cleanest channel (e.g., `BEST CH: 11 [95% A]`), evaluating both CCI and ACI penalties.
+* **Grade & Advice:** The top-left corner dynamically displays the mathematically cleanest channel (e.g., `BEST CH: 11 [95% A]`), evaluating both CCI and ACI penalties. The purity grading scale is:
+  * **(A) 90-100%:** 🟢 Ideal / Crystal clear.
+  * **(B) 75-89%:** 🍏 Good.
+  * **(C) 60-74%:** 🟡 Acceptable.
+  * **(D) 40-59%:** 🟠 Poor (Expect connection lag).
+  * **(F) <40%:** 🔴 Dead zone (Avoid using this channel).
 
 ### 📋 DEVICE LIST (Dynamic Discovery)
 This mode lists every signal in your vicinity using background multiplexed scanning.
@@ -90,6 +95,7 @@ Locks onto a specific MAC address. The device provides distance estimation (`~Xm
 * **Added:** Distance estimation (`~Xm`) is now available in the Wi-Fi Radar mode.
 * **Fixed:** **Target Name Lock** implemented. Prevents BLE payload fragmentation from overwriting a locked target's name mid-scan.
 * **Fixed:** Resolved the memory wipe issue. Navigating from Radar to the Device List now seamlessly transfers all scanned targets without resetting.
+* **Improved:** Highly optimized UI overlapping and bounding boxes for a cleaner, professional look on the 240x135 screen.
 
 ---
 
