@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/badge/License-Proprietary-gray)
 [![Boosty](https://img.shields.io/badge/Support-Boosty-orange)](https://boosty.to/zeloksa)
 
-# 📡 Wi-Fi & BLE Radar ADV (V3.0)
+# 📡 Wi-Fi & BLE Radar ADV (V3.1)
 
 **Wi-Fi & BLE Radar ADV V3.0** is an advanced, high-speed tracking, spatial direction-finding, and spectrum analysis tool strictly optimized for the **M5Stack Cardputer ADV**. This version transforms the device into a professional diagnostic suite by introducing a full-fledged Wi-Fi Spectrum Analyzer and intelligent UI state management.
 
@@ -14,7 +14,7 @@
 
 ---
 
-## ⚡ V3.0 Technical Highlights
+## ⚡ V3.1 Technical Highlights
 
 * **Professional Spectrum Analyzer:** A real-time 2.4GHz Wi-Fi channel monitor featuring True Peak Hold and Interference Arcs mapping to visually detect Co-Channel (CCI) and Adjacent Channel (ACI) interference.
 * **Smart Channel Advisor:** The radar mathematically calculates interference scores across all 13 channels based on signal power and channel overlap, dynamically recommending the absolute best (cleanest) channel for your home router.
@@ -39,7 +39,7 @@ Before using the BLE Radar, please understand the physical and cryptographic lim
 ### Method 1: M5Burner (Recommended)
 1. Open **M5Burner**.
 2. Search for `Wi-Fi & BLE Radar ADV` or `Zeloksa`.
-3. Select version **V3.0**.
+3. Select version **V3.1**.
 4. Burn to your M5Stack Cardputer.
 
 ### Method 2: Manual Flashing
